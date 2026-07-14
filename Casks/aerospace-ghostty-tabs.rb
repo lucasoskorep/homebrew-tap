@@ -1,6 +1,6 @@
 cask "aerospace-ghostty-tabs" do
-  version "0.0.0-ghostty-tabs-d9a5c324"
-  sha256 "5634302564fdc11cddc6ffdb11adde939849c28c87dd9a597a1738c520bc715b"
+  version "0.0.0-ghostty-tabs-05bbb8f8"
+  sha256 "bee4e7dca9410a2832507e2877a411d94d4c7cc0c14e1937d994df4991b3390f"
 
   url "https://github.com/lucasoskorep/AeroSpace/releases/download/#{version}/AeroSpace-v#{version}.zip"
   name "AeroSpace Ghostty Tabs"
