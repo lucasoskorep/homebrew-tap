@@ -14,9 +14,10 @@ cask "aerospace-ghostty-tabs" do
   app "#{package_root}/AeroSpace.app"
   binary "#{package_root}/bin/aerospace"
   bash_completion "#{package_root}/shell-completion/bash/aerospace"
-  zsh_completion "#{package_root}/shell-completion/zsh/_aerospace"
   fish_completion "#{package_root}/shell-completion/fish/aerospace.fish"
-  Dir["#{package_root}/manpage/*.1"].sort.each do |page|
+  zsh_completion "#{package_root}/shell-completion/zsh/_aerospace"
+
+  Dir["#{package_root}/manpage/*.1"].each do |page|
     manpage page
   end
 
